@@ -12,7 +12,7 @@ public class Rectangle {
     }
     
     boolean isRectangle(){
-        return this.length==this.width;
+        return this.length == this.width;
     }  
   
 

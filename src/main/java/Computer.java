@@ -19,12 +19,12 @@ public class Computer {
     }
 
     public void setStorage(int newStorage){
-        this.storage= newStorage;
+        this.storage = newStorage;
     }
     
     public void setPrinter(String newPrinter){
-        this.printer= newPrinter;
-        System.out.println(newPrinter);
+        this.printer = newPrinter;
+        //System.out.println(newPrinter);
         this.isPrinterConnected = true;    }
 
     public int addStorage(int extraStorage){
@@ -33,7 +33,6 @@ public class Computer {
     }
     
     public void printMessage(String message){
-        
         if (isPrinterConnected){
             System.out.println(message);
         }
